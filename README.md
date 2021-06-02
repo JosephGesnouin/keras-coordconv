@@ -3,6 +3,8 @@ Keras implementation of CoordConv from the paper [An intriguing failing of convo
 
 Extends the `CoordinateChannel` concatenation from only 2D rank (images) to 1D (text / time series) and 3D tensors (video / voxels).
 
+Updated version compared to titu1994
+
 # Usage
 
 Import `coord.py` and call it *before* any convolution layer in order to attach the coordinate channels to the input.
